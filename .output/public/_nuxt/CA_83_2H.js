@@ -1,0 +1,1 @@
+import{d as o,c as i}from"./CQxnt44T.js";const c=async()=>o("/api/index/collectionStatistics",{method:"POST",body:{},isToken:!1}),n=async({page:e,limit:t})=>i("/api/index/collectionList",{method:"POST",body:{page:e,limit:t},isToken:!1}),a=async e=>i("/api/index/collectionDetail",{method:"POST",body:{id:e},isToken:!1});export{a,n as b,c};

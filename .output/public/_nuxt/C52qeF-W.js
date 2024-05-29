@@ -1,0 +1,1 @@
+import{_,b as n}from"./CwFcZstm.js";import{_ as a}from"./DlAUqK2U.js";import{F as c,I as r,R as o,H as m,J as t}from"./CCRDBSiD.js";const u={},p={class:"w-full py-16"},l={class:"w-1/2 p-16 m-auto"};function d(i,f){const e=n,s=_;return c(),r("div",null,[o(s,{name:"user"},{default:m(()=>[t("div",p,[t("div",l,[o(e)])])]),_:1})])}const v=a(u,[["render",d]]);export{v as default};
