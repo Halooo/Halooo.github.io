@@ -1,0 +1,11 @@
+.el-search {
+  & > .el-input {
+    --el-text-color-regular: var(--u-white);
+    .el-input__wrapper {
+      box-shadow: none;
+      padding: 0;
+      --el-fill-color-blank: none;
+      background-color: var(--el-fill-color-blank);
+    }
+  }
+}

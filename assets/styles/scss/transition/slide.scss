@@ -1,0 +1,92 @@
+// 从上往下进入
+.slide-top-fade-enter-from,
+.slide-top-fade-leave-to {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+.slide-top-fade-enter-to,
+.slide-top-fade-leave-from {
+  transform: translateY(0);
+  opacity: 1;
+}
+.slide-top-fade-enter-active,
+.slide-top-fade-leave-active {
+  transition: all 0.5s ease;
+}
+// 从上往下进入 end
+
+// 从右往左进入
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(100%);
+}
+.slide-right-enter-to,
+.slide-right-leave-from {
+  transform: translateX(0);
+}
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 0.5s ease;
+}
+// 从右往左进入 end
+
+// 从下往上进入
+.slide-bottom-enter-from,
+.slide-bottom-leave-to {
+  transform: translateY(-100px);
+}
+.slide-bottom-enter-to,
+.slide-bottom-leave-from {
+  // transform: translateY(-100px);
+}
+.slide-bottom-enter-active,
+.slide-bottom-leave-active {
+  transition: all 0.5s ease;
+}
+// 从下往上进入 end
+
+// 从左往右进入 带回弹
+.slide-left-back-enter-active {
+  animation: slideLeftBack 1.5s;
+}
+.slide-left-back-leave-active {
+  animation: slideLeftBack 1.5s reverse;
+}
+
+@keyframes slideLeftBack {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+// 从左往右进入 带回弹 end
+
+// 从右往左进入 带回弹
+.slide-right-back-enter-active {
+  animation: slideRightBack 1.5s;
+}
+.slide-right-back-leave-active {
+  animation: slideRightBack 1.5s reverse;
+}
+
+@keyframes slideRightBack {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+// 从左往右进入 带回弹 end

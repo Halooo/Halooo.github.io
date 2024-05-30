@@ -1,0 +1,18 @@
+.el-alert {
+  --el-alert-padding: 0 !important;
+  --el-alert-border-radius-base: 0 !important;
+  --el-alert-close-font-size: 20px !important;
+  transition: all 1s ease !important;
+  .el-alert__content {
+    padding: 0;
+    width: 100%;
+    .el-alert__description {
+      margin: 0;
+    }
+  }
+  .el-alert__close-btn {
+    top: 50% !important;
+    transform: translateY(-50%);
+    color: #000000 !important;
+  }
+}

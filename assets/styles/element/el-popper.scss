@@ -1,0 +1,19 @@
+.el-popper {
+  --el-bg-color-overlay: #151515;
+  --el-border-color-light: #151515;
+
+  &.el-dropdown__popper {
+    --el-dropdown-menuItem-hover-fill: #2f2f2f;
+    --el-dropdown-menuItem-hover-color: inherit;
+  }
+
+  .el-dropdown-menu {
+    padding: 0;
+    --el-bg-color-overlay: var(--u-transparent);
+
+    .el-dropdown-menu__item {
+      color: inherit;
+      transition: all 0.3s;
+    }
+  }
+}

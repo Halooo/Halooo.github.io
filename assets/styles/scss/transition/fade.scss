@@ -1,0 +1,59 @@
+.fade {
+  // 定义进出过程
+  &-enter-active,
+  &-leave-active {
+    transition: all 0.5s ease;
+  }
+
+  &-enter-from,
+  &-enter-active,
+  &-enter-to,
+  &-leave-from,
+  &-leave-active,
+  &-leave-to {
+    overflow: hidden !important;
+  }
+
+  // 定义进入前与离开后状态
+  &-enter-from,
+  &-leave-to {
+    opacity: 0;
+  }
+
+  // 定义离开前与进入后状态
+  &-enter-to,
+  &-leave-from {
+    opacity: 1;
+  }
+}
+
+.fade-leave {
+  // 定义进出过程
+  &-enter-active {
+    transition: all 2s ease;
+  }
+  &-leave-active {
+    transition: all 0.5s ease;
+  }
+
+  &-enter-from,
+  &-enter-active,
+  &-enter-to,
+  &-leave-from,
+  &-leave-active,
+  &-leave-to {
+    overflow: hidden !important;
+  }
+
+  // 定义进入前与离开后状态
+  &-enter-from,
+  &-leave-to {
+    opacity: 0;
+  }
+
+  // 定义离开前与进入后状态
+  &-enter-to,
+  &-leave-from {
+    opacity: 1;
+  }
+}

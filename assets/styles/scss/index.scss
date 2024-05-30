@@ -1,0 +1,115 @@
+@use './theme.scss' as *;
+@use './font.scss' as *;
+@use './transition.scss' as *;
+
+html {
+  line-height: inherit;
+}
+
+body {
+  font-size: 15px;
+  font-family: PolySansNeutral;
+  color: #f5f5f5;
+  background-color: var(--u-black);
+}
+
+.el-popup-parent--hidden {
+  overflow: hidden;
+}
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: PolySansSlim;
+  color: var(--u-white);
+  cursor: pointer;
+  border: 1px solid var(--u-white);
+  padding: 15px 30px;
+  margin: -1px;
+  outline: none;
+  line-height: inherit;
+
+  & > div,
+  & > span {
+    position: relative;
+    z-index: 10;
+  }
+
+  &.gradient-btn {
+    border: 1px solid var(--u-transpwhitearent);
+    &::after,
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: all 1s ease;
+    }
+
+    &::after {
+      background: linear-gradient(270deg, #ff00d6 0%, #7b61ff 70.88%, #411ef5 96.61%);
+      opacity: 1;
+    }
+
+    &::before {
+      background: linear-gradient(270deg, #ff00d6 0%, #7b61ff 0.01%, #411ef5 43.05%, #2108a5 96.08%);
+      opacity: 0;
+    }
+
+    &:hover {
+      &::after {
+        opacity: 0;
+      }
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &:disabled {
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(270deg, #ff00d6 0%, #7b61ff 70.88%, #7193ea 96.61%);
+    border-image-slice: 1;
+    background: #000000;
+    // cursor: no-drop;
+    &::after,
+    &::before {
+      opacity: 0;
+    }
+    &:hover {
+      &::after,
+      &::before {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.scrollbar_box {
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 6px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--u-black);
+  border-radius: 6px;
+
+  display: none;
+}

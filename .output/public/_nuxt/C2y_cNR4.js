@@ -1,1 +1,0 @@
-import{d as e}from"./CwFcZstm.js";import{a as i,c as l}from"./CCRDBSiD.js";const m=e("collection",()=>{const o=i(!1),t=l(()=>o.value);return{collectionAnimation:o,getCollectionAnimation:t,setCollectionAnimation:n=>{o.value=n}}});export{m as u};

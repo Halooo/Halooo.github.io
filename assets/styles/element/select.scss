@@ -1,0 +1,26 @@
+.el-popper.is-light {
+  --el-bg-color-overlay: #151515;
+  background: var(--el-bg-color-overlay);
+  --el-border-color-light: none;
+  border: 1px solid var(--el-border-color-light);
+  .el-select-dropdown {
+    .el-select-dropdown__item {
+      height: inherit;
+    }
+  }
+  .el-select-dropdown__list {
+    padding: 0;
+  }
+  .el-select-dropdown__item.hover,
+  .el-select-dropdown__item:hover {
+    --el-fill-color-light: #2f2f2f;
+    background-color: var(--el-fill-color-light);
+  }
+  .el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
+    --el-bg-color-overlay: none;
+    background-color: var(--el-bg-color-overlay);
+    &::after {
+      display: none;
+    }
+  }
+}

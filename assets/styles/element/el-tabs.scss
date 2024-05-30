@@ -1,0 +1,14 @@
+.el-tabs__item {
+  --el-text-color-primary: #ffffff;
+  color: var(--el-text-color-primary);
+  padding: 32px 20px;
+  &.is-active,
+  &:hover {
+    --el-color-primary: #ffffff;
+    color: var(--el-color-primary);
+  }
+}
+.el-tabs__active-bar {
+  --el-color-primary: #ffffff;
+  background-color: var(--el-color-primary);
+}

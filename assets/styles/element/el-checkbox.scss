@@ -1,0 +1,12 @@
+.el-checkbox {
+  --el-checkbox-input-border: #ffffff;
+
+  .el-checkbox__input {
+    &.is-checked {
+      .el-checkbox__inner {
+        --el-checkbox-checked-bg-color: #000000;
+        --el-checkbox-checked-input-border-color: #ffffff;
+      }
+    }
+  }
+}

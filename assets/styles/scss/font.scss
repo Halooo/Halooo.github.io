@@ -1,0 +1,32 @@
+@font-face {
+  font-family: PolySansNeutral;
+  src: url('~/assets/fonts/PolySans-Neutral.woff') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PolySansSlim;
+  src: url('~/assets/fonts/PolySans-Slim.woff') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PPHattonMedium;
+  src: url('~/assets/fonts/PPHatton-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.PolySansNeutral {
+  font-family: PolySansNeutral;
+}
+
+.PolySansSlim {
+  font-family: PolySansSlim;
+}
+
+.PPHattonMedium {
+  font-family: PPHattonMedium;
+}

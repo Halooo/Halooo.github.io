@@ -670,7 +670,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./career-B7OGEqXZ.mjs').then((m) => m.default || m)
+    component: () => import('./career-n08xpimZ.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.name) ?? "collection-idx",
@@ -720,7 +720,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./event-D5pTgeNw.mjs').then((m) => m.default || m)
+    component: () => import('./event-AZZB54Y5.mjs').then((m) => m.default || m)
   },
   {
     name: "festivals",
@@ -728,7 +728,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./festivals-C3i47ywe.mjs').then((m) => m.default || m)
+    component: () => import('./festivals-CJbAvmb4.mjs').then((m) => m.default || m)
   },
   {
     name: "footage",
@@ -736,7 +736,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./footage-C--8_zOn.mjs').then((m) => m.default || m)
+    component: () => import('./footage-DrhvERqt.mjs').then((m) => m.default || m)
   },
   {
     name: "gala",
@@ -744,7 +744,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./gala-DMwxqQbg.mjs').then((m) => m.default || m)
+    component: () => import('./gala-UaHpKiYg.mjs').then((m) => m.default || m)
   },
   {
     name: "grant",
@@ -752,7 +752,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./grant-ClP5iKax.mjs').then((m) => m.default || m)
+    component: () => import('./grant-oj6D7OIx.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -760,7 +760,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-ajiuU8zL.mjs').then((m) => m.default || m)
+    component: () => import('./index-DgXWBdm_.mjs').then((m) => m.default || m)
   },
   {
     name: "jobs-description",
@@ -768,7 +768,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./description-ooSZhwMF.mjs').then((m) => m.default || m)
+    component: () => import('./description-BgfWD0PP.mjs').then((m) => m.default || m)
   },
   {
     name: "masterClass",
@@ -776,7 +776,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./masterClass-BNinBG4d.mjs').then((m) => m.default || m)
+    component: () => import('./masterClass-CsKUKi4C.mjs').then((m) => m.default || m)
   },
   {
     name: "medium",
@@ -784,7 +784,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./medium-x2Mm-2X1.mjs').then((m) => m.default || m)
+    component: () => import('./medium-C3IB3wY7.mjs').then((m) => m.default || m)
   },
   {
     name: "mentors",
@@ -792,7 +792,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./mentors-CI-FDdZ6.mjs').then((m) => m.default || m)
+    component: () => import('./mentors-DtBZc6oo.mjs').then((m) => m.default || m)
   },
   {
     name: "merch",
@@ -800,7 +800,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./merch-lTHHpIrf.mjs').then((m) => m.default || m)
+    component: () => import('./merch-dFhdfjPO.mjs').then((m) => m.default || m)
   },
   {
     name: "metaverse",
@@ -808,7 +808,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./metaverse-B1XflTtb.mjs').then((m) => m.default || m)
+    component: () => import('./metaverse-D9J3vJsB.mjs').then((m) => m.default || m)
   },
   {
     name: "nuxtWelcome",
@@ -824,7 +824,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./philanthropy-BR5Eg57q.mjs').then((m) => m.default || m)
+    component: () => import('./philanthropy-Re758qTN.mjs').then((m) => m.default || m)
   },
   {
     name: "press",
@@ -832,7 +832,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./press-C-HAWWSC.mjs').then((m) => m.default || m)
+    component: () => import('./press-DfhS0w4w.mjs').then((m) => m.default || m)
   },
   {
     name: "scInema",
@@ -840,7 +840,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./scInema-DqpWyzNJ.mjs').then((m) => m.default || m)
+    component: () => import('./scInema-C7xYldnu.mjs').then((m) => m.default || m)
   },
   {
     name: "scMeta",
@@ -848,7 +848,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./scMeta-D2oRa19P.mjs').then((m) => m.default || m)
+    component: () => import('./scMeta-D-Opyb0Q.mjs').then((m) => m.default || m)
   },
   {
     name: "starslist-sid",
@@ -856,7 +856,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_sid_-dwVVdq_l.mjs').then((m) => m.default || m)
+    component: () => import('./_sid_-Bv27-Sni.mjs').then((m) => m.default || m)
   },
   {
     name: "starslist",
@@ -864,7 +864,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Uy1CSuIX.mjs').then((m) => m.default || m)
+    component: () => import('./index-QVZo4cuq.mjs').then((m) => m.default || m)
   },
   {
     name: "starsMovies",
@@ -872,7 +872,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./starsMovies-7g89u0S4.mjs').then((m) => m.default || m)
+    component: () => import('./starsMovies-CnGh9XvN.mjs').then((m) => m.default || m)
   },
   {
     name: "start-applicaiton",
@@ -880,7 +880,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./applicaiton--4jhMZdG.mjs').then((m) => m.default || m)
+    component: () => import('./applicaiton-BJxsRIlW.mjs').then((m) => m.default || m)
   },
   {
     name: "start-privacy",
@@ -888,7 +888,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./privacy-Bc58lBT0.mjs').then((m) => m.default || m)
+    component: () => import('./privacy-wRbdMzFX.mjs').then((m) => m.default || m)
   },
   {
     name: "start-terms",
@@ -896,7 +896,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./terms-CRgfdHUQ.mjs').then((m) => m.default || m)
+    component: () => import('./terms-Dx4TcCvq.mjs').then((m) => m.default || m)
   },
   {
     name: "useProposal",
@@ -920,7 +920,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0 ,
-        component: () => import('./index-BGPFnSBz.mjs').then((m) => m.default || m)
+        component: () => import('./index-uYORKp7y.mjs').then((m) => m.default || m)
       },
       {
         name: "useProposal-art-preview",
@@ -944,7 +944,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0 ,
-        component: () => import('./index-BpLWhi8g.mjs').then((m) => m.default || m)
+        component: () => import('./index-C-M90y65.mjs').then((m) => m.default || m)
       },
       {
         name: "useProposal-film-preview",
@@ -962,7 +962,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./user-DRZH7Ir-.mjs').then((m) => m.default || m),
+    component: () => import('./user-CNxOPOj6.mjs').then((m) => m.default || m),
     children: [
       {
         name: "user-account",
@@ -978,7 +978,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0 ,
-        component: () => import('./message-UwoTuEQk.mjs').then((m) => m.default || m)
+        component: () => import('./message-Tpw6Nkoy.mjs').then((m) => m.default || m)
       },
       {
         name: "user-notificatSet",
@@ -994,7 +994,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0 ,
-        component: () => import('./profilePage-DlJ1upgE.mjs').then((m) => m.default || m)
+        component: () => import('./profilePage-Dn0j_Ewi.mjs').then((m) => m.default || m)
       },
       {
         name: "user-proposal",
@@ -1002,7 +1002,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0 ,
-        component: () => import('./proposal-C8QUkQLM.mjs').then((m) => m.default || m)
+        component: () => import('./proposal-DyFN0K_a.mjs').then((m) => m.default || m)
       }
     ]
   },
@@ -1012,7 +1012,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./videoIframe-ClwE48H3.mjs').then((m) => m.default || m)
+    component: () => import('./videoIframe-rohQFB0U.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1771,8 +1771,8 @@ const LazyStartLogo = defineAsyncComponent(() => import('./StartLogo-DgHU5_82.mj
 const LazyStartMallLogo = defineAsyncComponent(() => import('./StartMallLogo-QW2OBB2t.mjs').then((r) => r["default"] || r.default || r));
 const LazyUnionPayCard = defineAsyncComponent(() => import('./UnionPayCard-C4wF6eku.mjs').then((r) => r["default"] || r.default || r));
 const LazyVisaCard = defineAsyncComponent(() => import('./VisaCard-DRIWsFHe.mjs').then((r) => r["default"] || r.default || r));
-const LazyIcon = defineAsyncComponent(() => import('./Icon-CaiLYYN4.mjs').then((r) => r["default"] || r.default || r));
-const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-Czf52BeZ.mjs').then((r) => r["default"] || r.default || r));
+const LazyIcon = defineAsyncComponent(() => import('./Icon-DfsOnqxA.mjs').then((r) => r["default"] || r.default || r));
+const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-BRg5vyK8.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["StartLogo", LazyStartLogo],
   ["StartMallLogo", LazyStartMallLogo],
@@ -2069,10 +2069,10 @@ const plugins = [
   vCopy_DvcBluvtmY
 ];
 const layouts = {
-  custom: () => import('./custom-DhxxVIIh.mjs').then((m) => m.default || m),
+  custom: () => import('./custom-poDjpcJO.mjs').then((m) => m.default || m),
   default: () => import('./default-utpGR4fe.mjs').then((m) => m.default || m),
-  home: () => import('./home-DutjyDfX.mjs').then((m) => m.default || m),
-  user: () => import('./user-Ce8Ceayw.mjs').then((m) => m.default || m)
+  home: () => import('./home-DfBzGE8S.mjs').then((m) => m.default || m),
+  user: () => import('./user-CsQ6Z1uP.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

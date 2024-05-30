@@ -1,0 +1,17 @@
+.el-form {
+  .el-input__inner {
+    --el-input-text-color: black;
+    color: var(--el-input-text-color, var(--el-text-color-regular));
+  }
+  .el-input {
+    --el-component-size: 43px;
+  }
+  .el-form-item__label {
+    --el-text-color-regular: #f5f5f5;
+    color: var(--el-text-color-regular);
+  }
+  .el-form-item__label:after {
+    --el-color-danger: #ffffff;
+    color: var(--el-color-danger);
+  }
+}

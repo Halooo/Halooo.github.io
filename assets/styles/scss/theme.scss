@@ -1,0 +1,36 @@
+/* =====================================
+    System Colour
+===================================== */
+:root {
+  --u-transparent: transparent;
+  --u-black: #000000;
+  --u-white: #ffffff;
+  --u-dislable-color: #e8e6e4;
+  --u-yellow: #ffbc02;
+  --u-pink: #f065bf;
+  --u-blue: #010ffa;
+  --u-red: #ff3023;
+
+  // header
+  --u-header-logo-color: var(--u-white);
+  --u-header-text-color: var(--u-white);
+  --u-header-btn-bg-color: var(--u-white);
+  --u-header-btn-text-color: var(--u-black);
+
+  // zIndex
+  --u-header-z-index: 999;
+  --u-modal-z-index: 2000;
+}
+
+.dark-user {
+  --u-header-logo-color: var(--u-black);
+  --u-header-text-color: var(--u-black);
+  --u-header-btn-bg-color: var(--u-black);
+  --u-header-btn-text-color: var(--u-white);
+}
+
+.dark {
+  --u-header-logo-color: var(--u-black);
+  --u-header-btn-bg-color: var(--u-black);
+  --u-header-btn-text-color: var(--u-white);
+}

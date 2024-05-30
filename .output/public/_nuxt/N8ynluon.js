@@ -1,1 +1,0 @@
-import{c as o}from"./CQxnt44T.js";const r=async(e,s)=>o("/api/user/login",{method:"POST",body:{email:e,password:s},isToken:!1}),a=async()=>o("/api/user/logout",{method:"POST",body:{},isToken:!0});export{r as a,a as l};

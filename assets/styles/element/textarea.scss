@@ -1,0 +1,14 @@
+.textarea-box {
+  & > .el-textarea {
+    --el-fill-color-blank: none;
+    --el-input-bg-color: var(--el-fill-color-blank);
+    --el-text-color-regular: white;
+    --el-input-text-color: var(--el-text-color-regular);
+    .el-textarea__inner {
+      box-shadow: none;
+      .el-textarea__inner:hover {
+        box-shadow: none;
+      }
+    }
+  }
+}
